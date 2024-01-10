@@ -1,0 +1,192 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+img {
+  max-width: 100%; /* Sørger for, at billedet ikke overstiger bredden af dets container */
+  height: auto;
+}
+
+.migbillede1 {
+  width: 60%;
+  position: relative;
+  margin-left: -30%;
+  animation-name: fadein;
+  animation-duration: 1s;
+  z-index: 5;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.migbillede2 {
+  width: 60%;
+  position: relative;
+  margin-left: -25%;
+  animation-name: fadein;
+  animation-duration: 2s;
+  z-index: 4;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.migbillede3 {
+  width: 60%;
+  position: relative;
+  margin-left: -20%;
+  animation-name: fadein;
+  animation-duration: 3s;
+  z-index: 3;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.text1 {
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 3cqw;
+  position: relative;
+  top: 35%;
+  left: 38%;
+  color: #4c2215;
+}
+
+.overskrifter {
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 6cqw;
+  text-align: center;
+  grid-area: 1/3/1/1;
+  color: #4c2215;
+
+  margin-top: 5%;
+}
+
+.grid_1 {
+  background-image: url(billeder/baggrund3.webp);
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text1 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+.container {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.grid_2 {
+  background-image: url(billeder/stue1.png);
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.iframe {
+  grid-area: 1/1/1/1;
+  margin-top: 38%;
+  margin-left: 19%;
+  position: relative;
+}
+
+iframe {
+  width: 59%;
+  height: 48%;
+  aspect-ratio: 16/9;
+}
+
+.tv {
+  width: 80%;
+  margin-top: 20%;
+  grid-area: 1/1/1/1;
+  z-index: 1;
+  margin-left: 10%;
+}
+
+.tavle1 {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.tavle {
+  width: 70%;
+  padding-top: 33%;
+  margin-left: 10%;
+}
+
+.grid_3 {
+  background-image: url(billeder/retroroom.webp);
+  background-size: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 0.2fr;
+}
+
+#disc1 {
+  margin-top: 4%;
+  width: 65%;
+  margin-left: 40%;
+}
+
+#disc2 {
+  margin-top: 4%;
+  width: 65%;
+  margin-left: 30%;
+}
+
+#disc3 {
+  margin-top: -1%;
+  width: 65%;
+  margin-left: 40%;
+}
+#disc4 {
+  margin-top: -1%;
+  width: 65%;
+  margin-left: 30%;
+}
+
+.projekter {
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 3cqw;
+  margin-top: 10%;
+  margin-left: 25%;
+  color: #4c2215;
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

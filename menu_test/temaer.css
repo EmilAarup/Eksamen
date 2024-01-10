@@ -1,0 +1,144 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url(billeder/baggrund3.webp);
+  background-size: 100%;
+}
+img {
+  max-width: 100%; /* Sørger for, at billedet ikke overstiger bredden af dets container */
+  height: auto;
+}
+
+.grid2_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.2fr;
+}
+
+.grid3_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 4cqw;
+  position: relative;
+  padding-top: 3%;
+  left: 4%;
+  color: #4c2215;
+}
+
+h2 {
+  font-family: "Londrina Shadow", sans-serif;
+  font-size: 2cqw;
+  position: relative;
+  top: 4%;
+  left: 4.3%;
+  color: #4c2215;
+}
+
+.studiestartsprøve {
+  position: relative;
+  height: auto;
+  width: 70%;
+  left: 20%;
+  top: 5%;
+}
+
+.tekst2 {
+  color: #4c2215;
+  margin-top: 11%;
+  margin-left: 9%;
+  font-size: 1cqw;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.p2 {
+  position: relative;
+  top: 2%;
+}
+
+.p3 {
+  position: relative;
+  top: 4%;
+}
+
+.p4 {
+  position: relative;
+  top: 6%;
+}
+
+.studiestartsprøvetext {
+  position: relative;
+  text-align: center;
+
+  font-size: 2cqw;
+}
+
+.mitfærdigesite1 {
+  position: relative;
+  height: auto;
+  width: 70%;
+  left: 20%;
+  top: 5%;
+}
+
+.dokumentation {
+  margin-top: 10%;
+}
+
+.dokumentationtext {
+  color: #4c2215;
+  margin-top: 20%;
+  margin-left: 9%;
+  font-size: 1cqw;
+  font-family: "Courier New", Courier, monospace;
+}
+
+iframe {
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+  .grid2_1-1 {
+    display: block;
+  }
+  p {
+    text-align: center;
+    margin-right: 6%;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    gap: 10%;
+  }
+
+  .p1 {
+    margin-top: -10%;
+  }
+  .p2 {
+    margin-top: 3%;
+  }
+  .p3 {
+    margin-top: 3%;
+  }
+
+  .p4 {
+    margin-top: 3%;
+  }
+
+  .p5 {
+    margin-top: -15%;
+  }
+}
