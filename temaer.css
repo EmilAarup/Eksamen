@@ -6,7 +6,7 @@
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-image: url(billeder/baggrund3.webp);
+  background-image: url(billeder/baggrund3.webp); /* billedet er taget fra freepik */
   background-size: 100%;
 }
 img {
@@ -114,7 +114,7 @@ iframe {
   }
   p {
     text-align: center;
-    margin-right: 6%;
+    margin-right: 8%;
   }
   h1 {
     text-align: center;
